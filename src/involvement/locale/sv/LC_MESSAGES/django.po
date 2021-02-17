@@ -359,36 +359,36 @@ msgid "in"
 msgstr "i"
 
 #: models/team.py:15
-msgid "Team"
-msgstr "Grupp"
+msgid "Committee"
+msgstr "kommittée"
 
 #: models/team.py:16 wagtail_hooks.py:44
-msgid "Teams"
-msgstr "Grupper"
+msgid "Committees"
+msgstr "kommittéer"
 
 #: models/team.py:22
-msgid "English team name"
-msgstr "Gruppens engelska namn"
+msgid "English committee name"
+msgstr "Kommittéens engelska namn"
 
 #: models/team.py:23 models/team.py:30
-msgid "Enter the name of the team"
-msgstr "Ange gruppens namn"
+msgid "Enter the name of the committee"
+msgstr "Ange kommittéer namn"
 
 #: models/team.py:29
-msgid "Swedish team name"
-msgstr "Gruppens svenska namn"
+msgid "Swedish committee name"
+msgstr "kommittéens svenska namn"
 
 #: models/team.py:45
-msgid "English team description"
-msgstr "Beskrivning av gruppen på engelska"
+msgid "English committee description"
+msgstr "Beskrivning av kommittéen på engelska"
 
 #: models/team.py:46 models/team.py:52
-msgid "Enter a description of the team"
-msgstr "Ange en beskrivning av gruppen"
+msgid "Enter a description of the committee"
+msgstr "Ange en beskrivning av kommittéen"
 
 #: models/team.py:51
-msgid "Swedish team description"
-msgstr "Beskrivning av gruppen på svenska"
+msgid "Swedish committee description"
+msgstr "Beskrivning av kommittéen på svenska"
 
 #: templates/involvement/admin/application_overview_fields.html:4
 #: templates/modeladmin/involvement/position/inspect.html:15
@@ -766,8 +766,8 @@ msgid "Your application has been submitted!"
 msgstr "Din ansökan har skickats!"
 
 #: wagtail_hooks.py:31
-msgid "Access Groups"
-msgstr "Behörighetsgrupper"
+msgid "Workgroups"
+msgstr "Arbetsgrupper"
 
 #: wagtail_hooks.py:96
 msgid "year"

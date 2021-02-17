@@ -12,23 +12,23 @@ class Team(models.Model):
     """This class represents a working group within UTN"""
 
     class Meta:
-        verbose_name = _('Team')
-        verbose_name_plural = _('Teams')
+        verbose_name = _('Committee')
+        verbose_name_plural = _('Committees')
         default_permissions = ()
         ordering = ["name_sv"]
 
     # ---- General Information ------
     name_en = models.CharField(
         max_length=255,
-        verbose_name=_('English team name'),
-        help_text=_('Enter the name of the team'),
+        verbose_name=_('English committee name'),
+        help_text=_('Enter the name of the committee'),
         blank=False,
     )
 
     name_sv = models.CharField(
         max_length=255,
-        verbose_name=_('Swedish team name'),
-        help_text=_('Enter the name of the team'),
+        verbose_name=_('Swedish committee name'),
+        help_text=_('Enter the name of the committee'),
         blank=False,
     )
 
@@ -43,14 +43,14 @@ class Team(models.Model):
     )
 
     description_en = models.TextField(
-        verbose_name=_('English team description'),
-        help_text=_('Enter a description of the team'),
+        verbose_name=_('English committee description'),
+        help_text=_('Enter a description of the committee'),
         blank=True,
     )
 
     description_sv = models.TextField(
-        verbose_name=_('Swedish team description'),
-        help_text=_('Enter a description of the team'),
+        verbose_name=_('Swedish committee description'),
+        help_text=_('Enter a description of the committee'),
         blank=True,
     )
 

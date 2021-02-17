@@ -28,7 +28,7 @@ def construct_main_menu(request, menu_items):
         if item.name == 'settings' or item.name == 'installningar':
             for subitem in item.menu._registered_menu_items:
                 if subitem.name == 'groups' or subitem.name == 'grupper':
-                    subitem.label = _('Access Groups')
+                    subitem.label = _('Workgroups')
 
 
 @hooks.register("insert_global_admin_css", order=100)
@@ -41,7 +41,7 @@ def global_admin_css():
 
 class TeamAdmin(ModelAdmin):
     model = Team
-    menu_label = _('Teams')
+    menu_label = _('Committees')
     menu_icon = 'fa-sitemap'
     menu_order = 100
     list_display = ('name_en', 'name_sv')

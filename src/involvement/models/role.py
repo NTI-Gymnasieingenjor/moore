@@ -15,7 +15,7 @@ from involvement.rule_utils import is_admin, is_board, is_fum, \
 
 class Role(models.Model):
     """
-    This class represents a role within a team or UTN
+    This class represents a role within a committee or UTN
     """
 
     class Meta:
