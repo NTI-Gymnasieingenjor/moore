@@ -360,11 +360,11 @@ msgstr "i"
 
 #: models/team.py:15
 msgid "Committee"
-msgstr "kommittée"
+msgstr "Kommittée"
 
 #: models/team.py:16 wagtail_hooks.py:44
 msgid "Committees"
-msgstr "kommittéer"
+msgstr "Kommittéer"
 
 #: models/team.py:22
 msgid "English committee name"
@@ -372,11 +372,11 @@ msgstr "Kommittéens engelska namn"
 
 #: models/team.py:23 models/team.py:30
 msgid "Enter the name of the committee"
-msgstr "Ange kommittéer namn"
+msgstr "Ange kommittéens namn"
 
 #: models/team.py:29
 msgid "Swedish committee name"
-msgstr "kommittéens svenska namn"
+msgstr "Kommittéens svenska namn"
 
 #: models/team.py:45
 msgid "English committee description"
