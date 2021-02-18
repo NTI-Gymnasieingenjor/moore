@@ -148,8 +148,8 @@ msgid "Mandate histories"
 msgstr "Mandat historik"
 
 #: models/position.py:16 models/reference.py:29
-msgid "Position"
-msgstr "Post"
+msgid "Title"
+msgstr "Titel"
 
 #: models/position.py:17 wagtail_hooks.py:211
 msgid "Positions"
@@ -652,7 +652,7 @@ msgstr "email"
 
 #: templates/modeladmin/involvement/position/inspect.html:6
 msgid "position"
-msgstr "post"
+msgstr "post2222222"
 
 #: templates/modeladmin/involvement/position/inspect.html:9
 #, fuzzy
